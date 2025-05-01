@@ -32,3 +32,18 @@ userNameElement.innerHTML = `<a href="#">${userName}</a>`;
 userNameElement.innerHTML = `<a href="signup.html">Sign Up</a>`;
 }
 });
+// Simulate a login (for example purposes)
+function loginUser(name) {
+    // Store the user's name in localStorage
+    localStorage.setItem('userName', name);
+    // Reload the page to reflect changes in the navigation bar
+    location.reload();
+}
+
+// Simulate a logout function (for demonstration)
+function logoutUser() {
+    // Remove user info from localStorage to log out
+    localStorage.removeItem('userName');
+    // Reload the page to reflect the changes
+    location.reload();
+}
