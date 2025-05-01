@@ -95,3 +95,27 @@ nav {
 .nav-links a:hover::after {
     width: 100%;
 }
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.content-left h1 {
+    font-size: 64px;
+    color: var(--primary);
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+
+.content-left p {
+    color: var(--text);
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
